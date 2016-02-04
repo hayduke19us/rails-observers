@@ -1,6 +1,6 @@
-require 'minitest/autorun'
+require 'helper'
 require 'active_model'
-require 'rails/observers/active_model/active_model'
+require 'active_model/active_model'
 require 'models/observers'
 
 class ObserverArrayTest < ActiveModel::TestCase

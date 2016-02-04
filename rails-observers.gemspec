@@ -1,12 +1,12 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/rails/observers/version', __FILE__)
+require File.expand_path('../lib/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "rails-observers"
   s.authors     = ["Rafael Mendonça França", "Steve Klabnik"]
   s.email       = ["rafaelmfranca@gmail.com", "steve@steveklabnik.com"]
-  s.description = %q{Rails observer (removed from core in Rails 4.0)}
-  s.summary     = %q{ActiveModel::Observer, ActiveRecord::Observer and ActionController::Caching::Sweeper extracted from Rails.}
+  s.description = %q{ActiveModel::Observer}
+  s.summary     = %q{ActiveModel::Observer, extracted from Rails.}
   s.homepage    = "https://github.com/rails/rails-observers"
   s.version     = Rails::Observers::VERSION
   s.license     = 'MIT'
