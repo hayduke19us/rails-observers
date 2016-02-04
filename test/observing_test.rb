@@ -1,5 +1,4 @@
 require 'helper'
-require 'active_model'
 
 class ObservedModel
   include ActiveModel::Observing
